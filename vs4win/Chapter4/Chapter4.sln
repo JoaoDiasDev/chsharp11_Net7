@@ -7,17 +7,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WritingFunctions", "Writing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Debugging", "Debugging\Debugging.csproj", "{162B4A25-F9F0-4E48-BF11-5A17A39610E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotReloading", "HotReloading\HotReloading.csproj", "{4287FE89-6389-4289-9F23-A1DF6F063E4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotReloading", "HotReloading\HotReloading.csproj", "{4287FE89-6389-4289-9F23-A1DF6F063E4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instrumenting", "Instrumenting\Instrumenting.csproj", "{634220A9-C446-4A8E-858C-9B03F8D3E8A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Instrumenting", "Instrumenting\Instrumenting.csproj", "{634220A9-C446-4A8E-858C-9B03F8D3E8A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLib", "CalculatorLib\CalculatorLib.csproj", "{FF45ED09-FEE4-493B-AFCE-FDC8DBEDF6C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorLib", "CalculatorLib\CalculatorLib.csproj", "{FF45ED09-FEE4-493B-AFCE-FDC8DBEDF6C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLibUnitTests", "CalculatorLibUnitTests\CalculatorLibUnitTests.csproj", "{B1D469FF-3E73-4071-8E71-FCF3EEC9FD83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorLibUnitTests", "CalculatorLibUnitTests\CalculatorLibUnitTests.csproj", "{B1D469FF-3E73-4071-8E71-FCF3EEC9FD83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallStackExceptionHandlingLib", "CallStackExceptionHandlingLib\CallStackExceptionHandlingLib.csproj", "{9D7C1208-E029-4D53-A115-C9B8511F041C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CallStackExceptionHandlingLib", "CallStackExceptionHandlingLib\CallStackExceptionHandlingLib.csproj", "{9D7C1208-E029-4D53-A115-C9B8511F041C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallStackExceptionHandling", "CallStackExceptionHandling\CallStackExceptionHandling.csproj", "{73FA79BD-F78D-4697-AAF3-86761AC39746}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CallStackExceptionHandling", "CallStackExceptionHandling\CallStackExceptionHandling.csproj", "{73FA79BD-F78D-4697-AAF3-86761AC39746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch4Ex2PrimeFactorsLib", "Ch4Ex2PrimeFactorsLib\Ch4Ex2PrimeFactorsLib.csproj", "{9B56FD55-4883-4C56-B3B1-8ECFE30D577C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch4Ex2PrimeFactorsApp", "Ch4Ex2PrimeFactorsApp\Ch4Ex2PrimeFactorsApp.csproj", "{A76038B9-498E-40F2-9529-BDC4F73BA021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch4Ex2PrimeFactorsTests", "Ch04Ex02PrimeFactorsTests\Ch4Ex2PrimeFactorsTests.csproj", "{DD2407EB-2661-48E1-8F2A-1CD133432D79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +63,18 @@ Global
 		{73FA79BD-F78D-4697-AAF3-86761AC39746}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73FA79BD-F78D-4697-AAF3-86761AC39746}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73FA79BD-F78D-4697-AAF3-86761AC39746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B56FD55-4883-4C56-B3B1-8ECFE30D577C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B56FD55-4883-4C56-B3B1-8ECFE30D577C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B56FD55-4883-4C56-B3B1-8ECFE30D577C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B56FD55-4883-4C56-B3B1-8ECFE30D577C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A76038B9-498E-40F2-9529-BDC4F73BA021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A76038B9-498E-40F2-9529-BDC4F73BA021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A76038B9-498E-40F2-9529-BDC4F73BA021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A76038B9-498E-40F2-9529-BDC4F73BA021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2407EB-2661-48E1-8F2A-1CD133432D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2407EB-2661-48E1-8F2A-1CD133432D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2407EB-2661-48E1-8F2A-1CD133432D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2407EB-2661-48E1-8F2A-1CD133432D79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
