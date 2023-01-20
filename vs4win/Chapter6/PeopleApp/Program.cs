@@ -1,4 +1,5 @@
 ﻿using Packt.Shared;
+
 Person harry = new()
 {
     Name = "Harry",
@@ -34,3 +35,26 @@ key = 3;
 WriteLine(format: "Key {0} has value: {1}",
  arg0: key,
  arg1: lookupIntString[key]);
+
+// assign a method to the Shout delegate
+harry.Shout += Harry_Shout;
+harry.Shout += Harry_Shout2;
+// call the Poke method that raises the Shout event
+harry.Poke();
+harry.Poke();
+harry.Poke();
+harry.Poke();
+
+Person?[] people =
+{
+ null,
+ new() { Name = "Simon" },
+ new() { Name = "Jenny" },
+ new() { Name = "Adam" },
+ new() { Name = null },
+  new() { Name = "Richard" }
+};
+OutputPeopleNames(people, "Initial list of people:");
+Array.Sort(people);
+OutputPeopleNames(people,
+ "After sorting using Person's IComparable implementation:");
