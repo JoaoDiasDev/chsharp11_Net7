@@ -1,11 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-	<OutputType>Exe</OutputType>
-	<TargetFramework>net7.0</TargetFramework>
-	<ImplicitUsings>enable</ImplicitUsings>
-	<Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
 	<ItemGroup>
 		<Using Include="System.Console" Static="true" />
@@ -15,5 +15,10 @@
 		<Using Remove="System" />
 	</ItemGroup>
 
+	<ItemGroup>
+		<PackageReference Include="newtonsoft.json" Version="13.0.3" />
+		<PackageReference Include="joaodiasdev.csdotnet.sharedlibrary" Version="7.0.0" />
+		<PackageReference Include="dialectsoftware.collections.matrix" Version="1.0.0" />
+	</ItemGroup>
 
 </Project>
