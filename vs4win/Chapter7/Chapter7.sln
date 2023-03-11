@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedLibrary", "SharedLibr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetEverywhere", "DotNetEverywhere\DotNetEverywhere.csproj", "{F26458F0-7269-45EB-A966-2ED6D0ACD758}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceLinks", "SourceLinks\SourceLinks.csproj", "{B469347C-B579-4CC9-B117-D5F26E46048F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SourceLinks", "SourceLinks\SourceLinks.csproj", "{B469347C-B579-4CC9-B117-D5F26E46048F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
