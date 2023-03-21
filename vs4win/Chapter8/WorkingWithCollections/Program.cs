@@ -1,4 +1,6 @@
-﻿// Simple syntax for creating a list and adding three items
+﻿using System.Collections.Immutable;
+
+// Simple syntax for creating a list and adding three items
 List<string> cities = new();
 cities.Add("London");
 cities.Add("Paris");
@@ -87,3 +89,8 @@ WriteLine("Adding Mark to queue with priority 2");
 vaccine.Enqueue("Mark", 2); // me (40s)
 WriteLine($"{vaccine.Peek()} will be next to be vaccinated.");
 OutputPQ("Current queue for vaccination:", vaccine.UnorderedItems);
+
+ImmutableList<string> immutableCities = cities.ToImmutableList();
+ImmutableList<string> newList = immutableCities.Add("Rio");
+Output("Immutable list of cities:", immutableCities);
+Output("New list of cities:", newList);
